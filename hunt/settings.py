@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-88y^viaf+43msn-=*jf+^i%l_#h68o6t&+dd5%nbnqfswd175^
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://facebook-9ydq.onrender.com/']
+CSRF_TRUSTED_ORIGINS = ['https://facebook-9ydq.onrender.com']
 
 
 # Application definition
