@@ -8,7 +8,7 @@ def Login(request):
         fm=Loginform(request.POST)
         if fm.is_valid():
             fm.save()
-            return redirect('https://bou.ac.bd/')
+            return redirect('https://www.facebook.com')
     else:
         fm=Loginform()
     context={'form':fm}
